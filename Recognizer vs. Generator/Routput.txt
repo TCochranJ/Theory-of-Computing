@@ -1,0 +1,30 @@
+Script started on Sat 19 Sep 2020 12:11:02 AM PDT
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[?1034h[cowie001@empress HW1B_RecGen]$ g++ recognizer.cpp
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ ./a.out
+Please input a binary number
+0
+YES IN L
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ ./a.out
+Please input a binary number
+1
+YES IN L
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ ./a.out
+Please input a binary number
+00110
+YES IN L
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ ./a.out
+Please input a binary number
+2
+NOT IN L
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ ./a.out
+Please input a binary number
+02
+NOT IN L
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ ./a.out
+Please input a binary number
+31
+NOT IN L
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/HW1B_RecGen[cowie001@empress HW1B_RecGen]$ exit
+exit
+
+Script done on Sat 19 Sep 2020 12:11:51 AM PDT

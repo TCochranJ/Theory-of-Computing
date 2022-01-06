@@ -1,0 +1,179 @@
+Script started on Tue 15 Dec 2020 02:05:28 PM PST
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[?1034h[cowie001@empress TranslatorFiles]$ g++ translator.cpp
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ ./a.out
+Opening File
+Enter the input file name: partCtest1
+Processing <story>
+
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Processing <be>
+Matched IS
+Matched PERIOD
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Processing <be>
+Matched IS
+Matched PERIOD
+Processing <s>
+Processing <noun>
+Matched WORD1
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Matched OBJECT
+Processing <afterObject>
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Matched VERB
+Matched PERIOD
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Matched OBJECT
+Processing <afterObject>
+Processing <noun>
+Matched WORD1
+Matched DESTINATION
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Matched VERBPAST
+Matched PERIOD
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Matched WORD1
+Matched SUBJECT
+Processing <afterSubject>
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Matched VERBPASTNEG
+Matched PERIOD
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Matched PRONOUN
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Processing <be>
+Matched WAS
+Matched PERIOD
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Matched WORD1
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Matched DESTINATION
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Matched VERBPAST
+Matched PERIOD
+Processing <s>
+Processing <noun>
+Matched WORD1
+Matched SUBJECT
+Processing <afterSubject>
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Matched VERBPAST
+Matched PERIOD
+
+Successfully parsed <story>.
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ ./a.oug++ translator.c[11P./a.out
+Opening File
+Enter the input file name: partCtest2
+Processing <story>
+
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Matched PRONOUN
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Processing <be>
+Matched IS
+
+SYNTAX ERROR: expected PERIOD but found ne
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ ./a.out
+Opening File
+Enter the input file name: partCtest3
+Processing <story>
+
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Matched PRONOUN
+
+SYNTAX ERROR: expected SUBJECT but found de
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ ./a.out
+Opening File
+Enter the input file name: partCtest4
+Processing <story>
+
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Matched SUBJECT
+Processing <afterSubject>
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+
+SYNTAX ERROR: unexpected mashita found in afterNoun
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ ./a.out
+Opening File
+Enter the input file name: partCtest5
+Processing <story>
+
+Processing <s>
+Processing <noun>
+
+SYNTAX ERROR: unexpected wa found in noun
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ ./a.out
+Opening File
+Enter the input file name: partCtest6
+Processing <story>
+
+Lexical error: apple is not a valid token
+Processing <s>
+Processing <noun>
+
+SYNTAX ERROR: unexpected apple found in noun
+]0;cowie001@empress:~/cs421/cs421LK/CS421Progs/TranslatorFiles[cowie001@empress TranslatorFiles]$ exit
+exit
+
+Script done on Tue 15 Dec 2020 02:06:46 PM PST
